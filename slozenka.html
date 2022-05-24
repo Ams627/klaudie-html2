@@ -1,0 +1,111 @@
+﻿<html>
+<head>
+<title>tabulky</title>
+<style>
+.tableclass1 {border-style: none; border-color: black; width: 50%; border-collapse: collapse}
+td {border-style: solid; border-color: red; border-width: 5px; background-color: yellow}
+h5 {color: red}
+
+.div5squares {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) calc(1.5em - 2px), gray 1.5em);
+  background-size: 1.5em;
+  width: calc(5*1.5em - 1em);
+  height: 1.5em;
+}
+
+.div1square {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) calc(1.5em - 2px), gray 1.5em);
+  background-size: 1.5em;
+  width: calc(1*1.5em - 1em);
+  height: 1.5em;
+}
+
+.tableclass2, .tableclass2 td {
+    border: solid 1px gray;
+    background: white;
+    border-collapse: collapse;
+    color: green;
+}
+
+.tableclass2 td {
+    width: 30px;
+    height: 30px;
+}
+
+#fieldset1 {
+  background: white;
+  display: inline;
+  padding: 0px;
+  padding-right: 20px;
+}
+
+</style>
+<body>
+<table class="tableclass1">
+<tr>
+<td colspan="4" style="vertical-align: top">Podpisová poukázka<br>Podací číslo<br>
+
+<!-- if you want the PSČ in the border, you have to use fieldset with a legend as shown below: -->
+<fieldset id="fieldset1">
+  <legend>PSČ</legend>
+<div class = "div5squares"/>
+</fieldset>
+
+<br>
+<br>
+
+<!-- if you don't want the PSČ there, you can just leave out the legend tag: -->
+<fieldset id="fieldset1">
+<div class = "div5squares"/>
+</fieldset>
+
+<br>
+<br>
+
+<!-- just one square using a fieldset: -->
+<fieldset id="fieldset1">
+<div class = "div1square"/>
+</fieldset>
+
+<br>
+<br>
+
+<!-- alternative method with a table, but you can't put PSČ in there: -->
+
+<!-- this table is 5 squares: -->
+
+<table class="tableclass2">
+<tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<!-- this table is just one square: -->
+<table class="tableclass2">
+<tr>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+
+<br>&emsp;</td>
+
+<td rowspan="5" colspan="8">&emsp;</td>
+</tr>
+<td colspan="3"><b>Až 160 000</b>&emsp;<i>Kč</i></td>
+<td>h</td>
+</tr>
+<td colspan="4" style="vertical-align: top"><h5>Ceny</h5><b><u>Až stošedesátšest</u><br>tísíc korun</b>&emsp;Kč&emsp;&emsp;h</td>
+</tr>
+<tr>
+<td colspan="4" style="vertical-align: top"><h5>Půjčka</h5><b><u>Půjčíme Vám až 166 000Kč<br>bez úročně&emsp;&emsp;</b></u></td>
+</tr>
+<TD colspan="4" style="vertical-align: top"><h5>Číslo účtu</h5><hr width="400" size="2" color="black" align="left" noshade><u>545465645666</u></td>
+</tr>
