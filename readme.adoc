@@ -1,0 +1,30 @@
+:toc:
+:sectnums:
+:toclevels: 5
+:sectnumlevels: 5
+:showcomments:
+:xrefstyle: short
+:icons: font
+:source-highlighter: coderay
+:tick: &#x2714;
+:pound: &#xA3;
+
+= Title
+
+== Instructions
+
+Ahoj, potřebovala bych vytvořit, tabulku na podobný způsob jako na obrázku. Budeme 
+z toho psát v pátek test a paní učitelka nám ho pouze na par sekund ukázala a tak 
+jsem ho stihla vyfotit bohužel jenom rozmazane. Proto text v tabulce muže být jiný. 
+Mým problémem je, ze bych potřebovala vytvořit v tabulce ty malé bílé čtverečky a 
+nevím jak to udělat. Posílám co jsem zatím vytvořila. 
+
+== Instructions
+
+Hi, I need to create a table in a similar way to the picture. We will write a 
+test of it on Friday and the teacher only showed it to us for a few seconds, so 
+unfortunately I only managed to take a picture of him. Therefore, the text in the 
+table may be different. My problem is that I need to create those little white 
+squares in the table and I don't know how to do it. I'm posting what I've created 
+so far.
+
