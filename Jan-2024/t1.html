@@ -6,7 +6,7 @@
 .outerRect {
     border: 2px solid orange;
     min-height: 10em;
-    padding: 0;
+    padding-bottom: 10px;
     margin : 0;
 }
 
@@ -39,6 +39,24 @@
     border: solid 1px red;
 }
 
+.city {
+    width: 10em;
+}
+
+.postcode {
+    width: 5em;
+}
+
+.myButtonDiv {
+    text-align:center;
+}
+
+.myButton {
+    background: orange;
+    border: none;
+}
+
+
 </style>
 <script>
 </script>
@@ -62,15 +80,15 @@
             <p>Email:</p>
         </div>
         <div class="column">
-            <p><input class="myInput"/></p>
-            <p><input class="myInput"/></p>
-            <p><input class="myInput"/></p>
-            <p><input class="myInput"/></p>
-            <p><input class="myInput"/></p>
+            <p><input class="myInput" /></p>
+            <p><input class="myInput" /></p>
+            <p><input class="myInput" /></p>
+            <p><input class="myInput" /></p>
+            <p><input class="myInput" /></p>
         </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column"> <!-- outer column -->
     <div class="row">
         <div class="column right">
             <p>Jmeno</p>
@@ -80,14 +98,14 @@
         </div>
         <div class="column">
             <p><input class="myInput"/></p>
-            <p><input class="myInput"/>abc<input class="myInput"/></p>
+            <p><input class="myInput city"/> / <input class="myInput postcode"/></p>
             <p><input class="myInput"/></p>
             <p><input class="myInput"/></p>
         </div>
     </div>
   </div>
 </div>
-
+<div class="myButtonDiv"><button class="myButton">RESTARTOVAT</Button></div>
 
 </div>
 </div>
