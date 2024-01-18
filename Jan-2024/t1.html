@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Nothing</title>
+<style type='text/css'>
+.outerRect {
+    border: 2px solid orange;
+    min-height: 10em;
+    padding: 0;
+    margin : 0;
+}
+
+.header {
+    background: orange;
+    color: white;
+    text-align: center;
+    height: 4em;
+}
+
+.data {
+    color: orange;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.right {
+    text-align:right;
+}
+
+.myInput {
+    background: orange;
+    border: solid 1px red;
+}
+
+</style>
+<script>
+</script>
+</head>
+<body>
+
+<div class="outerRect">
+<div class="header">
+ŽÁDOST O VYSTAVENÍ PRŮKAZU
+</div>
+<div class="data">
+
+<div class="row">
+  <div class="column"> <!-- outer column -->
+    <div class="row">
+        <div class="column right">
+            <p>Příjmení</p>
+            <p>Ulice, č.p.</p>
+            <p>Telefon</p>
+            <p>Stat</p>
+            <p>Email:</p>
+        </div>
+        <div class="column">
+            <p><input class="myInput"/></p>
+            <p><input class="myInput"/></p>
+            <p><input class="myInput"/></p>
+            <p><input class="myInput"/></p>
+            <p><input class="myInput"/></p>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="row">
+        <div class="column right">
+            <p>Jmeno</p>
+            <p>Mesto/PSC</p>
+            <p>Misto Studia</p>
+            <p>Datum Narozeni</p>
+        </div>
+        <div class="column">
+            <p><input class="myInput"/></p>
+            <p><input class="myInput"/>abc<input class="myInput"/></p>
+            <p><input class="myInput"/></p>
+            <p><input class="myInput"/></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+
+</body>
+</html>
