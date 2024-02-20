@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Nothing</title>
+<style type='text/css'>
+
+.myTable {
+    border-collapse: collapse;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    text-align:center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.normalCell {
+    background-color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: solid 1px blue;
+}
+
+.white {
+    background-color: white;
+}
+
+
+.big {
+    height:4em;
+    border: solid 1px blue;
+}
+
+
+.d {
+    width:1em;
+}
+
+.r {
+    width: 14em;
+}
+
+.edge {
+    background-color: white;
+    font-size: 10pt;
+}
+
+.bigfont {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.medfont {
+    font-size: 13pt;
+    text-align: center;
+}
+
+</style>
+<script>
+</script>
+</head>
+<body>
+
+
+<table class="myTable yellow">
+
+<tr>
+<td class="vertical edge" rowspan="100">This is some vertical text. Write something here that makes sense</td>
+<td class="vertical" rowspan="100">&nbsp;</td>
+</tr>
+
+<tr><td>&nbsp;</td></tr>
+
+<tr>
+    <td colspan="5"><p class="bigfont">Prihlaska ditete</p><p class="medfont">Something else goes here</p></td>
+    <td colspan="6">&nbsp;</td>
+    <td colspan="3" class="white blueline big">This is the big white box at the top</td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Surname</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">First name</td></tr>
+
+<tr><td>&nbsp;</td><td class="normalCell">Date of birth</td>
+    <td class="normalCell d">&nbsp;</td>             <!-- d -->
+    <td class="normalCell d">&nbsp;</td>             <!-- d -->
+    <td class="normalCell d">&nbsp;</td>             <!-- m -->
+    <td class="normalCell d">&nbsp;</td>             <!-- m -->
+    <td class="normalCell d">&nbsp;</td>             <!-- y -->
+    <td class="normalCell d">&nbsp;</td>             <!-- y -->
+    <td class="normalCell d">&nbsp;</td>             <!-- y -->
+    <td class="normalCell d">&nbsp;</td>             <!-- y -->
+    <td class="normalCell" colspan="4">&nbsp;</td>             <!-- y -->
+</tr>
+
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Something</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Delivery address</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Mother language</td></tr>
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 1</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13"><span>Text 2</span><span><input type="checkbox"/></span></td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13"><span>Text 3</span><span><input type="checkbox"/></span></td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 4</td></tr>
+
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 1</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 2</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 3</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 4</td></tr>
+<tr><td>&nbsp;</td><td class="normalCell" colspan="13">Text 5</td></tr>
+<tr><td rowspan="2">&nbsp;</td><td class="normalCell" colspan="13">Text 6</td></tr>
+
+<!-- blank yellow area at the bottom -->
+<tr><td>&nbsp;</td></tr>
+
+</table>
+
+</body>
+</html>
